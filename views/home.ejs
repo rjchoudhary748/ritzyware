@@ -1,0 +1,215 @@
+<%- include('header') -%>
+<%- include('slider') -%>
+<div id="wrapper" class="size-wrap">
+    <div id="container_bg">
+        <div id="pf-content">
+            <div id="post-3263" class="post-3263 page type-page status-publish hentry">
+                <div class="entry-content">
+                    <div class="column column-1-4">
+                        <div class="service-box"><i style="font-size:32px; color:;" class="moon-screen-3"></i>
+                            <div class="service-content" style="margin-left:57px;">
+                                <h5>Web Applications</h5>Our website development professionals recognize the
+                                value of solid information architecture design and integrative branding that
+                                engages the customer from the first stop at your site.<br>
+                                <a class="su-fancy-link" style="float:none" href="http://ritzyware.com/web-applications/">Read
+                                    More<span>›</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column column-1-4">
+                        <div class="service-box"><i style="font-size:29px; color:;" class="moon-marker-2"></i>
+                            <div class="service-content" style="margin-left:54px;">
+                                <h5>Native/Hybrid Apps</h5>Our company also supplies Hybrid app service which
+                                are a mix of both Native and Web apps, users can avail the features on browser
+                                as well as mobile app stores.<br>
+                                <a class="su-fancy-link" style="float:none" href="http://ritzyware.com/hybrid-apps/">Read More<span>›</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column column-1-4">
+                        <div class="service-box"><i style="font-size:30px; color:;" class="moon-shield-4"></i>
+                            <div class="service-content" style="margin-left:55px;">
+                                <h5>CRM &amp; ERP Systems</h5>We provide CRM and it’s customization that can
+                                help you manage your business, and we are very flexible about how we go about
+                                doing it.<br>
+                                <a class="su-fancy-link" style="float:none" href="http://ritzyware.com/crm-and-erp-systems/">Read
+                                    More<span>›</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column column-1-4 column-last">
+                        <div class="service-box"><i style="font-size:30px; color:;" class="moon-cube4"></i>
+                            <div class="service-content" style="margin-left:55px;">
+                                <h5>CMS Systems</h5>Our CMS Development Company incorporates a sound specialized
+                                group devoted to acquainting our clients with new instruments to confront new
+                                difficulties.<br>
+                                <a class="su-fancy-link" style="float:none" href="http://ritzyware.com/cms-systems/">Read More<span>›</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="spacer" style="height:20px"></div>
+                    <div class="heading-wrapper">
+                        <h6><span class="heading-line-left"></span><strong>Why Choose US?</strong><span class="heading-line-right"></span></h6>
+                    </div>
+                    <div class="column column-1-2">
+                        <div class="su-spoiler su-spoiler-style-2 su-spoiler-open">
+                            <div class="su-spoiler-title"><i class="moon-arrow-right-2 spoiler-button"></i><i class="moon-arrow-down spoiler-button spoiler-active"></i>We have Team Of
+                                Experienced Designers And Developers</div>
+                            <div class="su-spoiler-content" style="display:block">Ritzyware is a fast growing IT
+                                Consulting that offers top notch business services and IT solutions for our
+                                respected clients. We follow latest trends and enhancement in the IT world to
+                                make your application user-friendly, light weight and data-optimized.<p></p>
+                                <p>You maybe a start-up, stabilized organization or a big enterprise, we will
+                                    support you to grow your customer base and their experience. We will provide
+                                    you round the clock support for your business and customers. “We Value
+                                    Relationship”.<br>
+                            </p></div>
+                        </div>
+                    </div>
+                    <div class="column column-1-2 column-last">
+                        <div class="su-spoiler su-spoiler-style-1 su-spoiler-open">
+                            <div class="su-spoiler-title"><i class="moon-arrow-right-2 spoiler-button"></i><i class="moon-arrow-down spoiler-button spoiler-active"></i>Customer Satisfaction</div>
+                            <div class="su-spoiler-content" style="display:block">Our strategy is to build a
+                                long term relation with the clients. Our first and prime motive is customer
+                                satisfaction. We assure you fast and effective response to your queries and make
+                                sure that our deliverables will be as per your expectations. </div>
+                        </div>
+                        <div class="su-spoiler su-spoiler-style-1">
+                            <div class="su-spoiler-title"><i class="moon-arrow-right-2 spoiler-button"></i><i class="moon-arrow-down spoiler-button spoiler-active"></i>Quick Support and
+                                Maintenance</div>
+                            <div class="su-spoiler-content">We will provide you round the clock support for your
+                                business and customers. We provide annual maintenance plans if you hosted on our
+                                servers.</div>
+                        </div>
+                        <div class="su-spoiler su-spoiler-style-1">
+                            <div class="su-spoiler-title"><i class="moon-arrow-right-2 spoiler-button"></i><i class="moon-arrow-down spoiler-button spoiler-active"></i>Creative Team
+                            </div>
+                            <div class="su-spoiler-content">We have a team with many years of experiences who
+                                always look forward to fulfil the vision and mission of the company. In addition
+                                to this, we specialize in delivering customized services to each of our customer
+                                as per their requirement.</div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="spacer" style="height:20px"></div>
+                    <div class="heading-wrapper">
+                        <h6><span class="heading-line-left"></span><strong>Our Clients and Projects</strong><span class="heading-line-right"></span></h6>
+                    </div>
+                    <div class="client_slider">
+                        <div class="swiper client_slider_logo">
+                            <div class="swiper-wrapper">
+                              <% if (clientimgs) { %>
+                                <% for(var i=0; i < clientimgs.length; i++) { %>
+                                  <div class="swiper-slide">
+                                    <img src="<%= clientimgs[i].img %>">
+                                  </div>
+                                <% } %>
+                              <% } %>
+                            </div>
+                            <div class="client_navigation">
+                                <div class="client-next">
+                                    <img src="images/left-chevron.png">
+                                </div>
+                                <div class="client-prev">
+                                    <img src="images/right-chevron.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="spacer" style="height:20px"></div>
+                    <p>&nbsp;</p>
+                    <div class="heading-wrapper">
+                        <h6><span class="heading-line-left"></span><strong>clients speaking</strong><span class="heading-line-right"></span></h6>
+                    </div>
+                    <div class="column column-1-3">
+                        <div class="testimonial-wrapper">
+                            <div class="testimonial-content">Excellent work Done by Pulkit. Very professional
+                                way of working good understanding of Business side as well as Technical
+                                understanding.&nbsp;</div>
+                            <div class="testimonial-arrow"></div>
+                            <div class="testimonial-author"><i class="moon-user-6"></i><b>Sumit Goyal</b></div>
+                        </div>
+                    </div>
+                    <div class="column column-1-3">
+                        <div class="testimonial-wrapper">
+                            <div class="testimonial-content"><span class="x_1131725763font"><span class="x_1131725763size"><span class="x_1131725763colour"> <span class="x_1131725763font"><span class="x_1131725763size"><span class="x_1131725763colour">&nbsp;</span></span></span><span class="x_1131725763highlight"><span class="x_1131725763font"><span class="x_1131725763size"><span class="x_1131725763colour">Excellent work for a fair
+                                                            price.
+                                                            THanks</span></span></span></span></span></span></span>&nbsp;
+                            </div>
+                            <div class="testimonial-arrow"></div>
+                            <div class="testimonial-author"><i class="moon-user-6"></i>Roger<b> Coryell</b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column column-1-3 column-last">
+                        <div class="testimonial-wrapper">
+                            <div class="testimonial-content">Good work </div>
+                            <div class="testimonial-arrow"></div>
+                            <div class="testimonial-author"><i class="moon-user-6"></i><b>Steven Moore</b></div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="heading-wrapper">
+                        <h6><span class="heading-line-left"></span><strong>Some client quotes</strong><span class="heading-line-right"></span></h6>
+                    </div>
+                    <div class="spacer" style="height:20px"></div>
+                    <% if (testimonial) { %>
+                        <% for(var i=0; i < testimonial.length; i++) { %>
+                            <div class="column column-1-2 testimonial-col-2">
+                                <div class="su-quote"><i class="moon-quotes-left"></i>
+                                    <div class="su-quote-shell"> <span class="x_1131725763font"><span class="x_1131725763size"><span class="x_1131725763colour">&nbsp;</span></span></span><span class="x_1131725763highlight"><span class="x_1131725763font"><span class="x_1131725763size"><span class="x_1131725763colour"><%= testimonial[i].text %></span></span></span></span>
+                                    </div>
+                                    <div class="quote-author"><%= testimonial[i].name %></div>
+                                </div>
+                            </div>
+                        <% } %>
+                      <% } %>
+                    <div class="clear"></div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="portfolio-fiter">
+                <div class="gallery-wrap">
+                    <ul id="filters" class="clearfix">
+                        <% var cate = ''; %>
+                        <% if (category) { %>
+                            <% category.forEach(wd => {
+                                cate += "."+wd.cate_name +","
+                            }) %>
+                            <li><span class="filter active" data-filter="<%= cate.slice(0, -1)%>">All</span></li>
+                            <% for(var i=0; i < category.length; i++) { %>
+                                <li><span class="filter" data-filter=".<%= category[i].cate_name %>"><%= category[i].cate_name %></span></li>
+                            <% } %>
+                        <% } %>
+                    </ul>
+                    <div id="gallery">
+                      <% if (portfolios) { %>
+                        <% for(var i=0; i < portfolios.length; i++) { %>
+                            <% if(i <= 8){%>
+                                <a class="gallery-item <%= portfolios[i].cat %>" href="#" data-cat="<%= portfolios[i].cat %>">
+                                    <div class="inside">
+                                    <div class="details">
+                                        <div class="text">
+                                        <h2><%= portfolios[i].name %></h2>
+                                        <p><%= portfolios[i].cat %></p>
+                                        </div>
+                                    </div>
+                                    <div class="overlay"></div>
+                                    <img src="<%= portfolios[i].img %>" alt="" />
+                                    </div>
+                                </a>
+                            <% } %>
+                        <% } %>
+                      <% } %>
+                    </div><!--/gallery-->
+              </div>
+            <div class="post-navigation">
+            </div>
+
+            <div class="clear"></div>
+        </div><!-- #content-->
+    </div>
+    <!--#container-->
+</div>
+<%- include('footer') -%>

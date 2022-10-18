@@ -1,0 +1,270 @@
+body {
+    font-family: 'Outfit', sans-serif;
+    overflow-x: hidden;
+}
+body, p, h1, h2, h3, h4, h5, h6, span, p, a, li, div, svg, label, select {
+    color: #495057;
+    fill: #495057;
+}
+.login-wrapper {
+    float: left;
+    width: 100%;
+    background-image: url(https://shop.craigndave.org/wp-content/uploads/2018/06/web-design-2906159_1920.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.login-div {
+    padding: 100px 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.login-right {
+    padding: 100px 60px;
+    background: white;
+    text-align: center;
+    border-radius: 5px;
+}
+.login-right img {
+    width: 200px;
+    margin-bottom: 30px;
+}
+.login-right h2 {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+.input-field {
+    width: 100%;
+    padding: 13px 15px;
+    border: 2px solid #0000005c;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+form.login-from-rit {
+    width: 76%;
+    margin: auto;
+    display: block;
+}
+.form-control-rit {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.form-control-rit label {
+    position: absolute;
+    top: -12px;
+    left: 20px;
+    background: white;
+    padding: 0 5px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.input-submit {
+    padding: 10px;
+    color: white;
+    background: #04AA6D!important;
+    border: 0;
+    font-weight: 600;
+    padding: 12px 70px;
+    border-radius: 3px;
+}
+/* dashboard Css*/
+.dashboard-wrapper {
+    width: 100%;
+    float: left;
+    height: 100vh;
+}
+.dashboard-div {
+    float: left;
+    width: 100%;
+}
+.dashboard-menu {
+    background: #333;
+}
+.main-menu {
+    height: 100vh;
+    padding: 15px 20px 35px 20px;
+}
+.main-menu h3 {
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+ul.main-menu-ul {
+    margin: 0;
+    padding: 0;
+}
+ul.main-menu-ul li {
+    list-style: none;
+    display: block;
+}
+ul.main-menu-ul li a {
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    font-size: 18px;
+    border-bottom: 1px solid #ffffff21;
+}
+ul.main-menu-ul {
+    margin: 50px 0 0 0;
+    padding: 0;
+}
+.main-bar {
+    margin: 0 -15px;
+    background: rebeccapurple;
+    padding: 15px 15px;
+}
+span.bar svg {
+    width: 20px;
+    fill: white;
+}
+span.user_icon strong {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
+span.user_icon svg {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border-bottom: 2px solid white!important;
+    padding: 5px;
+    fill: rebeccapurple;
+    background: white;
+    margin-right: 10px;
+}
+.bar-right {
+    text-align: right;
+    padding-right: 50px;
+}
+.breadcrumbs {
+    float: left;
+    width: 100%;
+    padding: 15px 20px;
+}
+.item-desh {
+    background: #dddddd2e;
+    border: 1px solid #d7d2d285;
+    padding: 35px 30px;
+    float: left;
+    width: 100%;
+    border-radius: 5px;
+}
+.item-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.dashboard-area {
+    width: 74%;
+}
+.item-div span svg {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    background: white;
+    padding: 7px;
+    fill: rebeccapurple;
+    border-radius: 5px;
+}
+.item-div a, .item-div span {
+    width: 50%;
+}
+.item-div span {
+    text-align: right;
+}
+.dashboard-main-section {
+    float: left;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+/* portfolio Css*/
+.portfolio-div {
+    float: left;
+    width: 100%;
+}
+.p-btn {
+    float: left;
+    width: 100%;
+    text-align: right;
+    margin-bottom: 20px;
+}
+a.rtz-btn {
+    background: rebeccapurple;
+    padding: 14px;
+    margin: 5px;
+    width: 200px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.dataTables_filter {
+    margin-bottom: 15px;
+}
+.main-table tr th {
+    background: rebeccapurple;
+    color: white;
+    border: 1px solid #ffffff1c;
+    text-align: center!important;
+    width: 300px!important;
+    font-weight: 400!important;
+    padding: 14px;
+}
+td.action_btn a {
+    margin-right: 10px;
+}
+td.action_btn a svg {
+    width: 18px;
+}
+.main-table tr td {
+    text-align: center!important;
+}
+.main-table tr td {
+    text-align: center!important;
+    border-bottom: 1px solid #dfdfdf29;
+    padding: 12px 0!important;
+}
+
+/* Model Css*/
+.rity-model {
+    background: #0000008c;
+}
+.modal-dialog {
+    width: 650px!important;
+    max-width: 650px!important;
+}
+.form-ctrl label {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+.input-form, .input-select, .input-file {
+    padding: 10px 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #33333378!important;
+    border-radius: 5px;
+}
+input#p_image {
+    padding: 6px 20px;
+}
+div#portfolio-model .modal-body {
+    padding-bottom: 30px;
+}
+div#catgory-model a.rtz-btn {
+    margin-top: 30px;
+}
+.input-text {
+    width: 100%;
+    padding: 10px 20px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #33333378!important;
+    border-radius: 5px;
+}

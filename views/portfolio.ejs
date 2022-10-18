@@ -1,0 +1,47 @@
+<%- include('header') -%>
+<%- include('slider') -%>
+<div id="wrapper" class="size-wrap portfolio_div">
+    <div id="container_bg">
+        <div id="content_full">
+            <div class="portfolio-fiter">
+                <div class="gallery-wrap">
+                    <ul id="filters" class="clearfix">
+                      <% var cate = ''; %>
+                        <% if (category) { %>
+                          <% category.forEach(wd => {
+                              cate += "."+wd.cate_name +","
+                          }) %>
+                          <li><span class="filter active" data-filter="<%= cate.slice(0, -1)%>">All</span></li>
+                          <% for(var i=0; i < category.length; i++) { %>
+                              <li><span class="filter" data-filter=".<%= category[i].cate_name %>"><%= category[i].cate_name %></span></li>
+                          <% } %>
+                      <% } %>
+                    </ul>
+                    <div id="gallery">
+                      <% if (portfolios) { %>
+                        <% for(var i=0; i < portfolios.length; i++) { %>
+                            <% if(i <= 8){%>
+                                <a class="gallery-item <%= portfolios[i].cat %>" href="#" data-cat="<%= portfolios[i].cat %>">
+                                    <div class="inside">
+                                    <div class="details">
+                                        <div class="text">
+                                        <h2><%= portfolios[i].name %></h2>
+                                        <p><%= portfolios[i].cat %></p>
+                                        </div>
+                                    </div>
+                                    <div class="overlay"></div>
+                                    <img src="<%= portfolios[i].img %>" alt="" />
+                                    </div>
+                                </a>
+                            <% } %>
+                        <% } %>
+                      <% } %>
+                    </div><!--/gallery-->
+              </div>
+            <div class="post-navigation">
+            </div>
+        </div>
+    </div>
+</div>
+
+<%- include('footer') -%>
