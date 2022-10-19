@@ -37,11 +37,13 @@ jQuery(document).ready(function($) {
 
     $(document).on('click','.t_edit', function () {
         $('#testmonial-model-edit').show();
+        $('#edit_t_title').val($(this).attr('data-title'));
+        $('#edit_t_text').val($(this).attr('data-text'));
+
     } );   
 
     $(document).on('click','.add-port1', function () {
         $('.rity-model').hide();
     } );
-
      
 });

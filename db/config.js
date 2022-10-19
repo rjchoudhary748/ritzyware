@@ -1,11 +1,10 @@
 var mysql = require('mysql');
 
 var con = mysql.createConnection({
-  host: "b33pvr9lvxup5y2lyz5k-mysql.services.clever-cloud.com",
-  user: "ueklrzvraggfefrt",
-  password: "x8W5zBAmNW1qrYdjEaCM",
-  database: "b33pvr9lvxup5y2lyz5k"
-
+  host: "b9suts7m8dvjnuwiqvdo-mysql.services.clever-cloud.com",
+  user: "ugvonq0rjas1q3fm",
+  password: "wFcIHgPMemB7eP20hTV",
+  database: "b9suts7m8dvjnuwiqvdo"
 });
 
 con.connect(function(err) {
